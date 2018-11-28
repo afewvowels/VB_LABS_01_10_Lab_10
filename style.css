@@ -1,0 +1,46 @@
+﻿/*
+    Blue: #4F7FB1
+    Light Brown: #554F48
+    Tan: #C8C2B5
+    Dark Brown: #403831
+    Off-white: #FDF7E7
+
+    Weights: 300, 400, 700
+*/
+
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FDF7E7;
+    color: #403831;
+}
+
+h2 {
+    padding: 10px;
+    font-size: 3.0em;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #E0DDCF;
+}
+
+.auto-style1 {
+    height: 21px;
+}
+
+#BooksGridView {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+#main_section {
+    text-align: center;
+    margin: 0 auto;
+}
